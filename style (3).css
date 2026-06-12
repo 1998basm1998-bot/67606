@@ -1,0 +1,14 @@
+.hide-scrollbar::-webkit-scrollbar { display: none; }
+.hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+.fade-in { animation: fadeIn 0.3s ease-in-out; }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+.slide-in-from-bottom { animation: slideInBottom 0.3s ease-in-out; }
+@keyframes slideInBottom { from { transform: translateY(10px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+
+.zoom-in-95 { animation: zoomIn 0.3s ease-in-out; }
+@keyframes zoomIn { from { transform: scale(0.95); opacity: 0; } to { transform: scale(1); opacity: 1; } }
+
+.slide-in-from-bottom-full { animation: slideInBottomFull 0.3s ease-in-out; }
+@keyframes slideInBottomFull { from { transform: translateY(100%); } to { transform: translateY(0); } }
